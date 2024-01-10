@@ -1,0 +1,45 @@
+.box {
+    animation-name: box-animation;
+    width: 100px;
+    height: 100px;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    left: 20px;
+    top: 0px;
+    position: relative;
+}
+
+@keyframes box-animation {
+    0% {
+        background-color: blue;
+        left: 20px;
+        top: 0px;
+        }
+
+    30% {
+        background-color: chartreuse;
+        left: 20px;
+        top: 200px;
+    }
+
+    50% {
+        background-color: cadetblue;
+        left: 250px;
+        top: 200px;
+    }
+
+    70% {
+        background-color: maroon;
+        left: 250px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: darkviolet;
+        left: 20px;
+        top: 0px;    
+
+    }
+
+}
